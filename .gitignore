@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# pytest
+.cache/
+
+# その他
+*.log
+
+# Vim
+*.swp
+
+# Backup files
+*~
+
+# Temp files
+tmp/
