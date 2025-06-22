@@ -13,6 +13,11 @@ __pycache__/
 # pytest
 .cache/
 
+# coverage
+htmlcov/
+.coverage
+coverage.xml
+
 # その他
 *.log
 

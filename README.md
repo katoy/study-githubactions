@@ -25,6 +25,25 @@ python number_class.py
 pytest
 ```
 
+## テストカバレッジの計測
+
+カバレッジ計測には `pytest-cov` を利用しています。
+
+```bash
+pytest --cov=number_class test/
+```
+
+カバレッジの詳細レポート（HTML）は以下で生成できます：
+
+```bash
+pytest --cov=number_class --cov-report=html test/
+open htmlcov/index.html  # macOSの場合
+```
+
+## CI（GitHub Actions）
+
+pushやPR時に自動でテスト・カバレッジ計測が実行されます。
+
 ## 貢献方法
 
 1.  リポジトリをフォークします。
