@@ -28,3 +28,7 @@ def test_number_holder_with_large_numbers():
 def test_number_holder_with_invalid_input():
     with pytest.raises(TypeError):
         NumberHolder("a", 1)
+
+def test_number_holder_with_invalid_num2():
+    with pytest.raises(TypeError):
+        NumberHolder(1, "b")
