@@ -1,2 +1,5 @@
 pytest
+# Lint
+flake8
+# Test coverage
 pytest-cov

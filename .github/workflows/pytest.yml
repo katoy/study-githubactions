@@ -22,3 +22,6 @@ jobs:
     - name: Run tests with coverage
       run: |
         pytest --cov=number_class --cov-report=term --cov-report=html test/
+    - name: Lint check (flake8)
+      run: |
+        flake8 number_class.py test/

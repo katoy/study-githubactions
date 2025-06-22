@@ -40,6 +40,14 @@ pytest --cov=number_class --cov-report=html test/
 open htmlcov/index.html  # macOSの場合
 ```
 
+## Lint チェック
+
+コードのスタイルチェックには `flake8` を利用しています。
+
+```bash
+flake8 number_class.py test/
+```
+
 ## CI（GitHub Actions）
 
 pushやPR時に自動でテスト・カバレッジ計測が実行されます。
